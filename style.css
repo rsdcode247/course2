@@ -1,0 +1,39 @@
+section {
+    background-color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: auto;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+  #p1 { 
+    background-color: rgb(175, 6, 34);
+    border: 1px solid;
+    width: 33%;
+    height: 300px;
+    float: right;
+}
+
+ 
+   #p2{
+     background-color: rgb(107, 6, 175);
+    border: 1px solid;
+    width: 33%;;
+    height: 300px;
+    float: right;
+    border-collapse: separate;
+
+   }
+
+
+ #p3{
+    background-color: rgb(5, 97, 62);
+    border: 1px solid;
+    width: 33%;
+    height: 300px;
+    float: right; 
+}
+ 
