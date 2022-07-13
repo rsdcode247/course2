@@ -1,7 +1,19 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    margin-right: auto;
+    margin-left: auto
+}
+
 section {
     background-color: crimson;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: auto;
+    font-family: 'Segoe UI';
+}
+
+p{
+  border: 1px solid;
+  width: 20%;
+  height: 200px;
 }
 
 *{
@@ -11,29 +23,33 @@ section {
 
   #p1 { 
     background-color: rgb(175, 6, 34);
-    border: 1px solid;
-    width: 33%;
-    height: 300px;
     float: right;
-}
+    text-align: right;
+  }
 
- 
    #p2{
      background-color: rgb(107, 6, 175);
-    border: 1px solid;
-    width: 33%;;
-    height: 300px;
     float: right;
-    border-collapse: separate;
-
+    text-align: right;
+    padding-left: 5px;
    }
-
 
  #p3{
     background-color: rgb(5, 97, 62);
-    border: 1px solid;
-    width: 33%;
-    height: 300px;
     float: right; 
-}
- 
+    text-align: right;
+    }
+ /***************large screen********************/
+    p{
+      @media (max-width: 992px) {
+      #p1; #p2; #p3; { width: 33.3%;
+      }
+    }
+  }
+   /******************medium screen**************/ 
+
+    @media (min-width: 768px)and (max-width: 991px) {
+      #p1, #p2 {width: 80%}
+    
+      }
+    
